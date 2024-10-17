@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DistributeurATM.Model.ClientBanque" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAACAAASAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ClientBanque.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistributeurATM.Model.ClientExterne" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAQAAAAAAAAAAAAAAAAAACAAAAQDAAAAAAAEAAA=</HashCode>
+      <FileName>Model\ClientExterne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistributeurATM.Model.PorteurDeCarte" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAEAAABBAbAAxAAAAIACAQAsCMQAAAAKDwADA=</HashCode>
+      <FileName>Model\PorteurDeCarte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistributeurATM.Model.ListeDeClientsInterne" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAABAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ListeDeClientsInterne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistributeurATM.Model.ListeDeClientsExterne" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIBAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ListeDeClientsExterne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DistributeurATM.Utilities.Interfaces.IDataAccess" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAIAAAAAAAoAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\Interfaces\IDataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DistributeurATM.Utilities.Interfaces.IAlertService" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Utilities\Interfaces\IAlertService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
