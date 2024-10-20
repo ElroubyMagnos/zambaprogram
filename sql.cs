@@ -47,7 +47,7 @@ namespace KeroFruits.Utilities.DataAccess
 
         private Comptebancaire GetComptebancaire(SqlDataReader dr)
         {
-            return new Comptebancaire(dr.GetInt32(0), dr.GetString(1), dr.GetString(2), dr.GetInt16(3) == 1, dr.GetDecimal(4));
+            return new Comptebancaire(dr.GetInt32(0), dr.GetString(1), dr.GetString(2), dr.GetInt16(3) == 1, dr.GetDecimal(4), dr.GetInt16(5) == 1);
         }
 
         public void SetMoney(int id, decimal money)

@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-17T14:43:49.561</Modified>
+      <Modified>2024-10-20T13:16:54.368</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-17T13:33:47.528</Modified>
+      <Modified>2024-10-20T12:42:40.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ZambaDistributeurATM.runtimeconfig.json">
       <PackagePath>ZambaDistributeurATM.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ZambaDistributeurATM.dll">
       <PackagePath>ZambaDistributeurATM.dll</PackagePath>
-      <Modified>2024-10-17T14:43:48.859</Modified>
+      <Modified>2024-10-20T13:16:53.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ZambaDistributeurATM.exe</PackagePath>
-      <Modified>2024-10-17T14:43:48.868</Modified>
+      <Modified>2024-10-20T13:16:53.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ZambaDistributeurATM.deps.json">
       <PackagePath>ZambaDistributeurATM.deps.json</PackagePath>
-      <Modified>2024-10-17T13:33:46.727</Modified>
+      <Modified>2024-10-20T12:42:39.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sondos\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

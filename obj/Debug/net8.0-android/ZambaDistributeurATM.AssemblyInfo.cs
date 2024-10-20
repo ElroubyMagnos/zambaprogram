@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZambaDistributeurATM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+75fa55043f8e4ecae341e73cfe371612195843e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZambaDistributeurATM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZambaDistributeurATM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

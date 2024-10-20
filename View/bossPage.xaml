@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DistributeurATM.View.bossPage"
+             xmlns:local="clr-namespace:DistributeurATM.ViewModel"
+             x:DataType="local:bossViewModel"
+             Title="bossPage">
+    <VerticalStackLayout>
+        <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" IsVisible="{Binding IsNotAdmin}">
+            <Label Text="Vous n'êtes pas un manager"/>
+        </VerticalStackLayout>
+        <VerticalStackLayout Margin="25" IsVisible="{Binding IsAdmin}">
+            <Picker ItemsSource="{Binding Emails}" SelectedItem="{Binding SelectedEmail}" ItemDisplayBinding="{Binding Username}"/>
+            <VerticalStackLayout Spacing="5">
+                <HorizontalStackLayout VerticalOptions="Center">
+                    <CheckBox IsEnabled="False" IsChecked="{Binding SelectedEmail.Admin}"/>
+                    <Label VerticalOptions="Center" Text="Admin"/>
+                </HorizontalStackLayout>
+                <Label Text="Username"/>
+                <Entry IsReadOnly="True" Placeholder="Username" Text="{Binding SelectedEmail.Username}"/>
+                <Label Text="Money"/>
+                <Entry IsReadOnly="True" Placeholder="Money" Text="{Binding SelectedEmail.Money}"/>
+                <Label Text="Password"/>
+                <Entry IsReadOnly="True" Placeholder="Password" Text="{Binding SelectedEmail.Password}"/>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+    
+    
+</ContentPage>

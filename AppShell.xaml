@@ -12,5 +12,10 @@
          Title="dépôtpage"
          Route="depotpage"
          ContentTemplate="{DataTemplate view:dépôtpage}" />
+
+        <ShellContent
+         Title="bossPage"
+         Route="bossPage"
+         ContentTemplate="{DataTemplate view:bossPage}" />
     </TabBar>
 </Shell>

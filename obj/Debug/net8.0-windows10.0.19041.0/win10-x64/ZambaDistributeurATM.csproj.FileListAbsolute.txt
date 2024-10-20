@@ -213,3 +213,4 @@ D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.
 D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ZambaDistributeurATM.sourcelink.json

@@ -36,6 +36,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Zamba.Resources.Styles.Sty
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[D:/Windows Helper/Abdullah/Desktop/DistributeurATM/View/bossPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Zamba.View.bossPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\bossPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\bossPage.xaml
+
 [D:/Windows Helper/Abdullah/Desktop/DistributeurATM/View/Connecter.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Zamba.View.Connecter.xaml
