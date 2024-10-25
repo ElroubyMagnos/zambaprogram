@@ -7,8 +7,8 @@
              Title="">
     <VerticalStackLayout Margin="25" HorizontalOptions="Center" Spacing="100">
         <HorizontalStackLayout>
-            <Label FontSize="25" FontAttributes="Bold" Text="{Binding CurrentCustomerView.Username, StringFormat='{0} have'}"/>
-            <Label FontSize="25" Text="{Binding CurrentMoney, StringFormat=' {0} Euro'}"/>
+            <Label FontSize="25" FontAttributes="Bold" Text="{Binding CurrentCustomerView.Name, StringFormat='{0} have'}"/>
+            <Label FontSize="25" Text="{Binding  CurrentCustomerView.Money, StringFormat=' {0} Euro'}"/>
         </HorizontalStackLayout>
 
         <VerticalStackLayout Spacing="5" WidthRequest="200">

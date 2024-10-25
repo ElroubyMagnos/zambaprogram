@@ -7,68 +7,92 @@ using Microsoft.Data.SqlClient;
 using System.Data;
 using DistributeurATM.Model;
 using DistributeurATM.Utilities.Services;
+using DistributeurATM.Model.Source;
+using DistributeurATM.Model.Employee;
+using static DistributeurATM.Interfaces.StaticData;
+using System.Collections.ObjectModel;
 
 namespace KeroFruits.Utilities.DataAccess
 {
     public class sql
     {
         public AlertServiceDisplay alertService = new AlertServiceDisplay();
-        public SqlConnection Connnextor = new SqlConnection("Server=192.168.1.150;Initial Catalog=zamba;User ID=sa;Password=Magnos0182163958;TrustServerCertificate=True");
-        public ComptebancaireCollection GetAllComptebancaire()
+        public SqlConnection Connector = new SqlConnection("Server=192.168.1.150;Initial Catalog=zamba;User ID=sa;Password=Magnos0182163958;TrustServerCertificate=True");
+        public ObservableCollection<T> GetAllAClass<T>(string Table) where T: class
         {
             try
             {
-                ComptebancaireCollection ComptebancaireCol = new ComptebancaireCollection();
-                string sql = "SELECT * FROM Comptebancaire;";
+                ObservableCollection<T> Group = new ObservableCollection<T>();
+                string sql = $"SELECT * FROM {Table};";
 
-                Connnextor.Open();
+                Connector.Open();
 
-                SqlCommand cmd = new SqlCommand(sql, Connnextor);
+                SqlCommand cmd = new SqlCommand(sql, Connector);
                 SqlDataReader dataReader = cmd.ExecuteReader();
 
                 while (dataReader.Read())
                 {
-                    Comptebancaire sm = GetComptebancaire(dataReader);
+                    T sm = GetOne<T>(dataReader);
                     if (sm != null)
                     {
-                        ComptebancaireCol.Add(sm);
+                        Group.Add(sm);
                     }
                 }
                 dataReader.Close();
-                Connnextor.Close();
-                return ComptebancaireCol;
+                Connector.Close();
+                return Group;
             }
-            catch
+            catch (Exception ex)
             {
-                Connnextor.Close();
+                Connector.Close();
                 return null;
             }
         }
 
-        private Comptebancaire GetComptebancaire(SqlDataReader dr)
+        private T GetOne<T>(SqlDataReader dr) where T : class
         {
-            return new Comptebancaire(dr.GetInt32(0), dr.GetString(1), dr.GetString(2), dr.GetInt16(3) == 1, dr.GetDecimal(4), dr.GetInt16(5) == 1);
+            if (typeof(T) == typeof(Customer))
+            {
+                return new Customer(dr.GetInt32(0), dr.GetString(1), dr.GetString(2), dr.GetDecimal(3)) as T;
+            }
+            else if (typeof(T) == typeof(Employee))
+            {
+                return new Employee(dr.GetInt32(0), dr.GetString(1), dr.GetString(2), (EmployeeType)dr.GetInt16(3)) as T;
+            }
+
+            return null;
         }
 
         public void SetMoney(int id, decimal money)
         {
             try
             {
-                ComptebancaireCollection ComptebancaireCol = new ComptebancaireCollection();
-                string sql = $"UPDATE Comptebancaire SET Money = '{money}' WHERE ID = {id};";
+                string sql = $"UPDATE Customers SET Money = '{money}' WHERE ID = {id};";
 
-                Connnextor.Open();
+                if (Connector.State != ConnectionState.Open)
+                    Connector.Open();
 
-                SqlCommand cmd = new SqlCommand(sql, Connnextor);
+                SqlCommand cmd = new SqlCommand(sql, Connector);
 
                 cmd.ExecuteNonQuery();
+            }
+            catch { }
+        }
 
-                Connnextor.Close();
-            }
-            catch 
+        public void SetTypeOfEmployee(EmployeeType Type, int id)
+        {
+            try
             {
-                Connnextor.Close();
+                string sql = $"UPDATE Employees SET Type = '{(int)Type}' WHERE ID = {id};";
+
+                if (Connector.State != ConnectionState.Open)
+                    Connector.Open();
+
+                SqlCommand cmd = new SqlCommand(sql, Connector);
+
+                cmd.ExecuteNonQuery();
             }
+            catch { }
         }
     }
 }

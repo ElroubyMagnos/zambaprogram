@@ -29,25 +29,25 @@
     <AppXManifest Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-20T13:16:54.368</Modified>
+      <Modified>2024-10-24T17:06:34.072</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-20T12:42:40.273</Modified>
+      <Modified>2024-10-24T15:06:09.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ZambaDistributeurATM.runtimeconfig.json">
       <PackagePath>ZambaDistributeurATM.runtimeconfig.json</PackagePath>
-      <Modified>2024-10-17T13:33:47.020</Modified>
+      <Modified>2024-10-24T15:06:08.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ZambaDistributeurATM.dll">
       <PackagePath>ZambaDistributeurATM.dll</PackagePath>
-      <Modified>2024-10-20T13:16:53.530</Modified>
+      <Modified>2024-10-24T17:06:33.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ZambaDistributeurATM.exe</PackagePath>
-      <Modified>2024-10-20T13:16:53.538</Modified>
+      <Modified>2024-10-24T17:06:33.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-09-05T06:30:26.436</Modified>
+      <Modified>2024-10-24T15:04:53.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-09-05T06:30:26.527</Modified>
+      <Modified>2024-10-24T15:04:53.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-09-05T06:30:26.614</Modified>
+      <Modified>2024-10-24T15:04:53.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-09-05T06:30:26.851</Modified>
+      <Modified>2024-10-24T15:04:53.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-09-05T06:30:27.481</Modified>
+      <Modified>2024-10-24T15:04:53.513</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -83,211 +83,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-10-17T12:44:49.119</Modified>
+      <Modified>2024-10-24T15:04:57.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.095</Modified>
+      <Modified>2024-10-24T15:04:57.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.094</Modified>
+      <Modified>2024-10-24T15:04:57.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.090</Modified>
+      <Modified>2024-10-24T15:04:57.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.089</Modified>
+      <Modified>2024-10-24T15:04:57.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.088</Modified>
+      <Modified>2024-10-24T15:04:57.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.112</Modified>
+      <Modified>2024-10-24T15:04:57.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.112</Modified>
+      <Modified>2024-10-24T15:04:57.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.111</Modified>
+      <Modified>2024-10-24T15:04:57.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.111</Modified>
+      <Modified>2024-10-24T15:04:57.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.111</Modified>
+      <Modified>2024-10-24T15:04:57.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.114</Modified>
+      <Modified>2024-10-24T15:04:57.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.114</Modified>
+      <Modified>2024-10-24T15:04:57.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.113</Modified>
+      <Modified>2024-10-24T15:04:57.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.113</Modified>
+      <Modified>2024-10-24T15:04:57.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.113</Modified>
+      <Modified>2024-10-24T15:04:57.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.119</Modified>
+      <Modified>2024-10-24T15:04:57.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.118</Modified>
+      <Modified>2024-10-24T15:04:57.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.118</Modified>
+      <Modified>2024-10-24T15:04:57.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.117</Modified>
+      <Modified>2024-10-24T15:04:57.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.117</Modified>
+      <Modified>2024-10-24T15:04:57.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.117</Modified>
+      <Modified>2024-10-24T15:04:57.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.116</Modified>
+      <Modified>2024-10-24T15:04:57.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.115</Modified>
+      <Modified>2024-10-24T15:04:57.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.116</Modified>
+      <Modified>2024-10-24T15:04:57.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.115</Modified>
+      <Modified>2024-10-24T15:04:57.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.105</Modified>
+      <Modified>2024-10-24T15:04:57.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.105</Modified>
+      <Modified>2024-10-24T15:04:57.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.101</Modified>
+      <Modified>2024-10-24T15:04:57.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.100</Modified>
+      <Modified>2024-10-24T15:04:57.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.100</Modified>
+      <Modified>2024-10-24T15:04:57.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.108</Modified>
+      <Modified>2024-10-24T15:04:57.276</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.108</Modified>
+      <Modified>2024-10-24T15:04:57.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.106</Modified>
+      <Modified>2024-10-24T15:04:57.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.106</Modified>
+      <Modified>2024-10-24T15:04:57.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.106</Modified>
+      <Modified>2024-10-24T15:04:57.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.110</Modified>
+      <Modified>2024-10-24T15:04:57.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.110</Modified>
+      <Modified>2024-10-24T15:04:57.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.109</Modified>
+      <Modified>2024-10-24T15:04:57.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.109</Modified>
+      <Modified>2024-10-24T15:04:57.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.108</Modified>
+      <Modified>2024-10-24T15:04:57.276</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.099</Modified>
+      <Modified>2024-10-24T15:04:57.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.098</Modified>
+      <Modified>2024-10-24T15:04:57.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.097</Modified>
+      <Modified>2024-10-24T15:04:57.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.096</Modified>
+      <Modified>2024-10-24T15:04:57.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.095</Modified>
+      <Modified>2024-10-24T15:04:57.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clients.scale-100.png">
       <PackagePath>clients.scale-100.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.120</Modified>
+      <Modified>2024-10-24T15:04:57.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fruits.scale-100.png">
       <PackagePath>fruits.scale-100.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.120</Modified>
+      <Modified>2024-10-24T15:04:57.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\kero.scale-100.jpg">
       <PackagePath>kero.scale-100.jpg</PackagePath>
-      <Modified>2024-10-17T12:44:49.121</Modified>
+      <Modified>2024-10-24T15:04:57.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\reservations.scale-100.png">
       <PackagePath>reservations.scale-100.png</PackagePath>
-      <Modified>2024-10-17T12:44:49.121</Modified>
+      <Modified>2024-10-24T15:04:57.262</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tickets.scale-100.webp">
       <PackagePath>tickets.scale-100.webp</PackagePath>
-      <Modified>2024-10-17T12:44:49.119</Modified>
+      <Modified>2024-10-24T15:04:57.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Helper\Abdullah\Desktop\DistributeurATM\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ZambaDistributeurATM.deps.json">
       <PackagePath>ZambaDistributeurATM.deps.json</PackagePath>
-      <Modified>2024-10-20T12:42:39.728</Modified>
+      <Modified>2024-10-24T15:06:07.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sondos\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

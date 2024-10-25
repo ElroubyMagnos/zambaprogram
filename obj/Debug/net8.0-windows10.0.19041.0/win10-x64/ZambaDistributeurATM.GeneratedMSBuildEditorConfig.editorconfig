@@ -7,49 +7,55 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Zamba
+build_property.RootNamespace = DistributeurATM
 build_property.ProjectDir = D:\Windows Helper\Abdullah\Desktop\DistributeurATM\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
 [D:/Windows Helper/Abdullah/Desktop/DistributeurATM/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Zamba.App.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DistributeurATM.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
 [D:/Windows Helper/Abdullah/Desktop/DistributeurATM/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Zamba.AppShell.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DistributeurATM.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
 [D:/Windows Helper/Abdullah/Desktop/DistributeurATM/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Zamba.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DistributeurATM.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
 [D:/Windows Helper/Abdullah/Desktop/DistributeurATM/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Zamba.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DistributeurATM.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
 [D:/Windows Helper/Abdullah/Desktop/DistributeurATM/View/bossPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Zamba.View.bossPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DistributeurATM.View.bossPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\bossPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\bossPage.xaml
 
 [D:/Windows Helper/Abdullah/Desktop/DistributeurATM/View/Connecter.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Zamba.View.Connecter.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DistributeurATM.View.Connecter.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Connecter.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Connecter.xaml
 
 [D:/Windows Helper/Abdullah/Desktop/DistributeurATM/View/dépôtpage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Zamba.View.dépôtpage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DistributeurATM.View.dépôtpage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\dépôtpage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\dépôtpage.xaml
+
+[D:/Windows Helper/Abdullah/Desktop/DistributeurATM/View/moneytrans.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DistributeurATM.View.moneytrans.xaml
+build_metadata.AdditionalFiles.TargetPath = View\moneytrans.xaml
+build_metadata.AdditionalFiles.RelativePath = View\moneytrans.xaml

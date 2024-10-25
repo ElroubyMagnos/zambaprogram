@@ -5,17 +5,29 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:DistributeurATM"
     xmlns:view="clr-namespace:DistributeurATM.View"
-    Shell.FlyoutBehavior="Disabled"
+    Shell.FlyoutBehavior="Flyout"
     Title="DistributeurATM">
-    <TabBar>
-        <ShellContent
-         Title="dépôtpage"
-         Route="depotpage"
-         ContentTemplate="{DataTemplate view:dépôtpage}" />
 
-        <ShellContent
-         Title="bossPage"
-         Route="bossPage"
-         ContentTemplate="{DataTemplate view:bossPage}" />
-    </TabBar>
+    <FlyoutItem Title="User">
+        <Tab>
+            <ShellContent
+              Title="Dépôtpage"
+              Route="depotpage"
+              ContentTemplate="{DataTemplate view:dépôtpage}" />
+            
+            <ShellContent
+              Title="Transfert"
+              Route="Transfert"
+              ContentTemplate="{DataTemplate view:moneytrans}" />
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Employee">
+        <Tab>
+            <ShellContent
+              Title="BossPage"
+              Route="bossPage"
+              ContentTemplate="{DataTemplate view:bossPage}" />
+        </Tab>
+    </FlyoutItem>
 </Shell>

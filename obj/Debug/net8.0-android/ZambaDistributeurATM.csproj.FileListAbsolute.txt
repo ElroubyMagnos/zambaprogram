@@ -1126,3 +1126,11 @@ D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-android\stam
 D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-android\lp\94\jl\files.cache
+D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-android\lp\100\jl\files.cache
+D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-android\lp\101\jl\files.cache
+D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-android\lp\112\jl\files.cache
+D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-android\lp\119\jl\files.cache
+D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-android\lp\124\jl\files.cache
+D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-android\lp\159\jl\files.cache
+D:\Windows Helper\Abdullah\Desktop\DistributeurATM\obj\Debug\net8.0-android\ZambaDistributeurATM.sourcelink.json

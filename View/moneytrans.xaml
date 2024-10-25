@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DistributeurATM.View.moneytrans"
+             xmlns:viewmodel="clr-namespace:DistributeurATM.ViewModel"
+             x:DataType="viewmodel:moneytransViewModel"
+             Title="Transfert">
+    <VerticalStackLayout Spacing="25" Margin="100">
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="{Binding CustomerAccount.Name, StringFormat='User: {0}'}"/>
+            <Label Text="{Binding CustomerAccount.Money, StringFormat=', Votre argent: {0} Euro'}"/>
+        </HorizontalStackLayout>
+        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Le nom"/>
+            <Entry Text="{Binding Username}" Placeholder="Le nom d'utilisateur du destinataire"/>
+            <Label Text="Montant"/>
+            <Entry Text="{Binding Money}" Placeholder="Montant"/>
+
+            <Button Command="{Binding TransferMoneyCommand}" Text="Envoyer"/>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+    
+</ContentPage>

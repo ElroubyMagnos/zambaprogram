@@ -1,27 +1,25 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using DistributeurATM.Interfaces;
 using DistributeurATM.Model;
 using DistributeurATM.Utilities.Interfaces;
 using DistributeurATM.View;
 using KeroFruits.Utilities.DataAccess;
+using static DistributeurATM.Interfaces.StaticData;
 
 namespace DistributeurATM.ViewModel
 {
     public partial class dépôtViewModel : BaseViewModel
     {
-        private sql Sql;
         [ObservableProperty]
         private decimal currentMoney;
         public dépôtViewModel(IAlertService alertService) : base(alertService)
         {
-            CurrentCustomerView = dépôtpage.CurrentUser;
-            CurrentMoney = dépôtpage.CurrentUser.Money;
-
-            Sql = new sql();
+            CurrentCustomerView = CurrentCustomer;
         }
 
         [ObservableProperty]
-        private Comptebancaire currentCustomerView;
+        private Customer currentCustomerView;
 
         [ObservableProperty]
         private decimal currentEntry;
@@ -37,7 +35,7 @@ namespace DistributeurATM.ViewModel
         }
         void RefreshDB()
         {
-            Sql.SetMoney(CurrentCustomerView.ID, CurrentMoney);
+            SQL.SetMoney(CurrentCustomerView.ID, CurrentMoney);
         }
         [RelayCommand()]
         private void Withdraw()

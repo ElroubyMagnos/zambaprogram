@@ -1,3 +1,4 @@
+using DistributeurATM.Interfaces;
 using DistributeurATM.Utilities.Services;
 using DistributeurATM.ViewModel;
 
@@ -8,6 +9,7 @@ public partial class bossPage : ContentPage
 	public bossPage()
 	{
 		InitializeComponent();
+		StaticData.CheckEmployee();
 
 		BindingContext = new bossViewModel(new AlertServiceDisplay());
 	}
