@@ -1,19 +1,13 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using DistributeurATM.Interfaces;
 using DistributeurATM.Model;
-using DistributeurATM.Model.Employee;
 using DistributeurATM.Utilities.Interfaces;
 using DistributeurATM.View;
-using DistributeurATM.ViewModel;
-using KeroFruits.Utilities.DataAccess;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static DistributeurATM.Interfaces.StaticData;
+using DistributeurATM.Model.EmployeeGroup;
+using DistributeurATM.View.Customer;
+using DistributeurATM.View.Employee;
 
 namespace DistributeurATM.ViewModel
 {
@@ -36,7 +30,7 @@ namespace DistributeurATM.ViewModel
         private string password;
 
         [RelayCommand()]
-        private void login()
+        private async void login()
         {
             foreach (var t in Customers)
             {
@@ -44,6 +38,9 @@ namespace DistributeurATM.ViewModel
                 {
                     CurrentCustomer = t;
                     App.Current.MainPage = new AppShell();
+
+                    Routing.RegisterRoute(nameof(CustomerHome), typeof(CustomerHome));
+                    await Shell.Current.GoToAsync(nameof(CustomerHome));
                     break;
                 }
             }
@@ -54,6 +51,9 @@ namespace DistributeurATM.ViewModel
                 {
                     CurrentEmployee = t;
                     App.Current.MainPage = new AppShell();
+
+                    Routing.RegisterRoute(nameof(EmployeeHome), typeof(EmployeeHome));
+                    await Shell.Current.GoToAsync(nameof(EmployeeHome));
                     break;
                 }
             }

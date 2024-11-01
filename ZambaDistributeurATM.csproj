@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
+		<WindowsPackageType>None</WindowsPackageType>
 		<TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
 		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net8.0-windows10.0.19041.0</TargetFrameworks>
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
@@ -67,7 +68,25 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="View\bossPage.xaml">
+	  <Compile Update="View\Customer\DepotPage.xaml.cs">
+	    <DependentUpon>DepotPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="View\Employee\bossPage.xaml.cs">
+	    <DependentUpon>BossPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="View\Employee\CreateAccounts.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\Customer\CustomerHome.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\Employee\AddCustomers.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\Employee\BossPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\ChiffreDaffairePage.xaml">
@@ -76,7 +95,10 @@
 	  <MauiXaml Update="View\Connecter.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\moneytrans.xaml">
+	  <MauiXaml Update="View\Customer\moneytrans.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\Employee\EmployeeHome.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

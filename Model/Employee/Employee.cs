@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DistributeurATM.Model.Employee
+namespace DistributeurATM.Model.EmployeeGroup
 {
     public class Employee : AClass
     {

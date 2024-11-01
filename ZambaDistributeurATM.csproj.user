@@ -10,7 +10,19 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="View\moneytrans.xaml">
+    <MauiXaml Update="View\Employee\CreateAccounts.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\Customer\CustomerHome.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\Customer\moneytrans.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\Employee\AddCustomers.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\Employee\EmployeeHome.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

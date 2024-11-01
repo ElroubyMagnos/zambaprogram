@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DistributeurATM.View.Employee.AddCustomers"
+             xmlns:local="clr-namespace:DistributeurATM.ViewModel.EmployeeGroup"
+             Title="AddCustomers">
+
+    <ContentPage.BindingContext>
+        <local:AddCustomersViewModel/>
+    </ContentPage.BindingContext>
+    
+    <VerticalStackLayout>
+        <Entry Text="" Placeholder="Username"/>
+        <Entry Text="" Placeholder="Password"/>
+        <Entry Text="" Placeholder="First Money"/>
+        <Button Text="Create"/>
+    </VerticalStackLayout>
+</ContentPage>

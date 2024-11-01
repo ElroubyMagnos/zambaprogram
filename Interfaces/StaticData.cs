@@ -1,6 +1,9 @@
 ﻿using DistributeurATM.Model;
-using DistributeurATM.Model.Employee;
+using DistributeurATM.Model.EmployeeGroup;
 using DistributeurATM.Model.Source;
+using DistributeurATM.View;
+using DistributeurATM.View.Customer;
+using DistributeurATM.View.Employee;
 using KeroFruits.Utilities.DataAccess;
 using System;
 using System.Collections.Generic;
@@ -12,7 +15,7 @@ namespace DistributeurATM.Interfaces
 {
     public static class StaticData
     {
-        public static sql SQL = new sql();
+        public static SqlMain SQL = new SqlMain();
         public enum EmployeeType
         {
             admin = 1,
@@ -21,16 +24,16 @@ namespace DistributeurATM.Interfaces
         }
         public static async void CheckCustomer()
         {
-            if (CurrentCustomer != null)
+            if (CurrentCustomer == null)
             {
-                await Shell.Current.Navigation.PopAsync();
+                await Shell.Current.GoToAsync(nameof(EmployeeHome));
             }
         }
         public static async void CheckEmployee()
         {
-            if (CurrentEmployee != null)
+            if (CurrentEmployee == null)
             {
-                await Shell.Current.Navigation.PopAsync();
+                await Shell.Current.GoToAsync(nameof(CustomerHome));
             }
         }
         static Employee cc;

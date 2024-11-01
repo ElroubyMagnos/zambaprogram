@@ -3,31 +3,14 @@
     x:Class="DistributeurATM.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:DistributeurATM"
-    xmlns:view="clr-namespace:DistributeurATM.View"
-    Shell.FlyoutBehavior="Flyout"
+    xmlns:local="clr-namespace:DistributeurATM.View"
+    xmlns:cust="clr-namespace:DistributeurATM.View.Customer"
+    xmlns:emp="clr-namespace:DistributeurATM.View.Employee"
+    Shell.FlyoutBehavior="Disabled"
     Title="DistributeurATM">
 
-    <FlyoutItem Title="User">
-        <Tab>
-            <ShellContent
-              Title="Dépôtpage"
-              Route="depotpage"
-              ContentTemplate="{DataTemplate view:dépôtpage}" />
-            
-            <ShellContent
-              Title="Transfert"
-              Route="Transfert"
-              ContentTemplate="{DataTemplate view:moneytrans}" />
-        </Tab>
-    </FlyoutItem>
-
-    <FlyoutItem Title="Employee">
-        <Tab>
-            <ShellContent
-              Title="BossPage"
-              Route="bossPage"
-              ContentTemplate="{DataTemplate view:bossPage}" />
-        </Tab>
-    </FlyoutItem>
+    <ShellContent
+          Title="Connector"
+          Route="con"
+          ContentTemplate="{DataTemplate local:Connecter}" />
 </Shell>
